@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #656f7e;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+} 
+.non-metal{
+    background-color: #FFFECC;
+}
+.nobel-gas{
+    background-color: #FFE4C7;
+}
+.metalloid{
+    background-color: #E3EFC7;
+}
+.post-Transitio-metal{
+    background-color: #CFFDC9;
+}
+.alkali-metal{
+    background-color: #FFD2CF;
+}
+.alkaline-earth-metal{
+    background-color: #D2D3FF;
+}
+.transition-metal{
+    background-color: #C6DEFF;
+}
+.empty{
+    border: none;
+}
+.lanthanide{
+    background-color: #C9FEFF;
+}
+.actiinde{
+    background-color: #c0e8e9;
+}
+div{
+    width: 50px;
+    height: 60px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px 3px;
+    border: none;
+    margin: 1px 1px;
+}
+span{
+    font-size:6px;
+    font-weight: bold;
+}
+.element{
+    font-size: larger;
+}
+.number{
+    font-size: x-small;
+}
+
+.metal{
+    font-size: 4px;
+}
+.right{
+    text-align: left;
+}
